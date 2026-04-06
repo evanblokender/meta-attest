@@ -1,0 +1,15 @@
+{
+  "name": "vr-auth-server",
+  "version": "1.0.0",
+  "description": "Meta attestation + JWT + Photon auth backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}
